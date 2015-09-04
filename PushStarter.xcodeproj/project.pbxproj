@@ -36,7 +36,7 @@
 		48628AA31B31BC0800C80AB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		48628AA51B31BC0800C80AB1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		48628AAE1B31BC0800C80AB1 /* PushStarterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PushStarterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		48628AB31B31BC0800C80AB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48628AB31B31BC0800C80AB1 /* PushStarter-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PushStarter-Info.plist"; sourceTree = "<group>"; };
 		48628AB41B31BC0800C80AB1 /* PushStarterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PushStarterTests.m; sourceTree = "<group>"; };
 		48628ABE1B31BE7D00C80AB1 /* AGAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGAppDelegate.h; sourceTree = "<group>"; };
 		48628ABF1B31BE7D00C80AB1 /* AGAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGAppDelegate.m; sourceTree = "<group>"; };
@@ -135,7 +135,7 @@
 		48628AB21B31BC0800C80AB1 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				48628AB31B31BC0800C80AB1 /* Info.plist */,
+				48628AB31B31BC0800C80AB1 /* PushStarter-Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -411,7 +411,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
-				INFOPLIST_FILE = PushStarter/Info.plist;
+				INFOPLIST_FILE = "PushStarter/PushStarter-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -427,7 +427,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
-				INFOPLIST_FILE = PushStarter/Info.plist;
+				INFOPLIST_FILE = "PushStarter/PushStarter-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
