@@ -16,9 +16,9 @@
  */
 
 #import <UIKit/UIKit.h>
-#import <FH/FH.h>
-@interface AGAppDelegate : UIResponder <UIApplicationDelegate>
 
-@property (strong, nonatomic) UIWindow *window;
+@interface NotificationCell : UITableViewCell
+
+@property (weak, nonatomic) IBOutlet UILabel *message;
 
 @end

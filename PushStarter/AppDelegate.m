@@ -15,10 +15,10 @@
  * limitations under the License.
  */
 
-#import "AGAppDelegate.h"
+#import "AppDelegate.h"
 #import <FH/FH.h>
 
-@implementation AGAppDelegate
+@implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Enable push remote notification
@@ -83,7 +83,7 @@
 }
 
 - (void)application:(UIApplication *)application didReceiveRemoteNotification:(NSDictionary *)userInfo {
-    // When a message is received, send NSNotification, will be handle by registered AGViewController
+    // When a message is received, send NSNotification, will be handle by registered ViewController
     NSNotification *notification = [NSNotification notificationWithName:@"message_received" object:[self pushMessageContent:userInfo]];
     [[NSNotificationCenter defaultCenter] postNotification:notification];
     NSLog(@"UPS message received: %@", userInfo);

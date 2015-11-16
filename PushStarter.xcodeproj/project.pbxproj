@@ -11,9 +11,9 @@
 		48628AA41B31BC0800C80AB1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48628AA21B31BC0800C80AB1 /* Main.storyboard */; };
 		48628AA61B31BC0800C80AB1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48628AA51B31BC0800C80AB1 /* Images.xcassets */; };
 		48628AB51B31BC0800C80AB1 /* PushStarterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 48628AB41B31BC0800C80AB1 /* PushStarterTests.m */; };
-		48628AC41B31BE7D00C80AB1 /* AGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 48628ABF1B31BE7D00C80AB1 /* AGAppDelegate.m */; };
-		48628AC51B31BE7D00C80AB1 /* AGNotificationCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 48628AC11B31BE7D00C80AB1 /* AGNotificationCell.m */; };
-		48628AC61B31BE7D00C80AB1 /* AGViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48628AC31B31BE7D00C80AB1 /* AGViewController.m */; };
+		48628AC41B31BE7D00C80AB1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 48628ABF1B31BE7D00C80AB1 /* AppDelegate.m */; };
+		48628AC51B31BE7D00C80AB1 /* NotificationCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 48628AC11B31BE7D00C80AB1 /* NotificationCell.m */; };
+		48628AC61B31BE7D00C80AB1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48628AC31B31BE7D00C80AB1 /* ViewController.m */; };
 		48628ACA1B31C44400C80AB1 /* fhconfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = 48628AC91B31C44400C80AB1 /* fhconfig.plist */; };
 		4873F0D01B99B64E00FCEFCC /* FH.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4873F0CF1B99B64E00FCEFCC /* FH.framework */; };
 		4873F0D21B99B66700FCEFCC /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4873F0D11B99B66700FCEFCC /* libz.dylib */; };
@@ -45,12 +45,12 @@
 		48628AAE1B31BC0800C80AB1 /* PushStarterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PushStarterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		48628AB31B31BC0800C80AB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		48628AB41B31BC0800C80AB1 /* PushStarterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PushStarterTests.m; sourceTree = "<group>"; };
-		48628ABE1B31BE7D00C80AB1 /* AGAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGAppDelegate.h; sourceTree = "<group>"; };
-		48628ABF1B31BE7D00C80AB1 /* AGAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGAppDelegate.m; sourceTree = "<group>"; };
-		48628AC01B31BE7D00C80AB1 /* AGNotificationCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGNotificationCell.h; sourceTree = "<group>"; };
-		48628AC11B31BE7D00C80AB1 /* AGNotificationCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGNotificationCell.m; sourceTree = "<group>"; };
-		48628AC21B31BE7D00C80AB1 /* AGViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGViewController.h; sourceTree = "<group>"; };
-		48628AC31B31BE7D00C80AB1 /* AGViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGViewController.m; sourceTree = "<group>"; };
+		48628ABE1B31BE7D00C80AB1 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		48628ABF1B31BE7D00C80AB1 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		48628AC01B31BE7D00C80AB1 /* NotificationCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotificationCell.h; sourceTree = "<group>"; };
+		48628AC11B31BE7D00C80AB1 /* NotificationCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotificationCell.m; sourceTree = "<group>"; };
+		48628AC21B31BE7D00C80AB1 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		48628AC31B31BE7D00C80AB1 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		48628AC91B31C44400C80AB1 /* fhconfig.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = fhconfig.plist; sourceTree = "<group>"; };
 		4873F0CF1B99B64E00FCEFCC /* FH.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FH.framework; sourceTree = "<group>"; };
 		4873F0D11B99B66700FCEFCC /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
@@ -112,12 +112,12 @@
 		48628A971B31BC0700C80AB1 /* PushStarter */ = {
 			isa = PBXGroup;
 			children = (
-				48628ABE1B31BE7D00C80AB1 /* AGAppDelegate.h */,
-				48628ABF1B31BE7D00C80AB1 /* AGAppDelegate.m */,
-				48628AC01B31BE7D00C80AB1 /* AGNotificationCell.h */,
-				48628AC11B31BE7D00C80AB1 /* AGNotificationCell.m */,
-				48628AC21B31BE7D00C80AB1 /* AGViewController.h */,
-				48628AC31B31BE7D00C80AB1 /* AGViewController.m */,
+				48628ABE1B31BE7D00C80AB1 /* AppDelegate.h */,
+				48628ABF1B31BE7D00C80AB1 /* AppDelegate.m */,
+				48628AC01B31BE7D00C80AB1 /* NotificationCell.h */,
+				48628AC11B31BE7D00C80AB1 /* NotificationCell.m */,
+				48628AC21B31BE7D00C80AB1 /* ViewController.h */,
+				48628AC31B31BE7D00C80AB1 /* ViewController.m */,
 				48628AA21B31BC0800C80AB1 /* Main.storyboard */,
 				48628AA51B31BC0800C80AB1 /* Images.xcassets */,
 				48628AC91B31C44400C80AB1 /* fhconfig.plist */,
@@ -268,9 +268,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				48628AC61B31BE7D00C80AB1 /* AGViewController.m in Sources */,
-				48628AC51B31BE7D00C80AB1 /* AGNotificationCell.m in Sources */,
-				48628AC41B31BE7D00C80AB1 /* AGAppDelegate.m in Sources */,
+				48628AC61B31BE7D00C80AB1 /* ViewController.m in Sources */,
+				48628AC51B31BE7D00C80AB1 /* NotificationCell.m in Sources */,
+				48628AC41B31BE7D00C80AB1 /* AppDelegate.m in Sources */,
 				48628A9B1B31BC0800C80AB1 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

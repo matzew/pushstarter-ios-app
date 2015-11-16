@@ -15,8 +15,10 @@
  * limitations under the License.
  */
 
-#import "AGNotificationCell.h"
+#import <UIKit/UIKit.h>
+#import <FH/FH.h>
+@interface AppDelegate : UIResponder <UIApplicationDelegate>
 
-@implementation AGNotificationCell
+@property (strong, nonatomic) UIWindow *window;
 
 @end

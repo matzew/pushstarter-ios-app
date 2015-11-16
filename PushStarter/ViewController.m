@@ -15,12 +15,12 @@
  * limitations under the License.
  */
 
-#import "AGViewController.h"
-#import "AGNotificationCell.h"
+#import "ViewController.h"
+#import "NotificationCell.h"
 
-static NSString * const AGNotificationCellIdentifier = @"AGNotificationCell";
+static NSString * const NotificationCellIdentifier = @"NotificationCell";
 
-@implementation AGViewController
+@implementation ViewController
 
 NSMutableArray* _messages;
 
@@ -96,10 +96,10 @@ BOOL isRegistered;
 // Notice: on iOS 8 and later, this is no needed since it is provided by default by the system,
 // if the property 'numberOfLines = 0' is set
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
-    static AGNotificationCell *cell = nil;
+    static NotificationCell *cell = nil;
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
-        cell = [self.tableView dequeueReusableCellWithIdentifier:AGNotificationCellIdentifier];
+        cell = [self.tableView dequeueReusableCellWithIdentifier:NotificationCellIdentifier];
     });
     
     // apply text for calculating height
@@ -126,7 +126,7 @@ BOOL isRegistered;
         self.tableView.separatorStyle = UITableViewCellSeparatorStyleSingleLine;
     }
     
-    AGNotificationCell *cell = [self.tableView dequeueReusableCellWithIdentifier:AGNotificationCellIdentifier forIndexPath:indexPath];
+    NotificationCell *cell = [self.tableView dequeueReusableCellWithIdentifier:NotificationCellIdentifier forIndexPath:indexPath];
     // apply text
     cell.message.text = _messages[indexPath.row];
     

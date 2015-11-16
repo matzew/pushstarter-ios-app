@@ -17,7 +17,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AGViewController : UITableViewController
+@interface ViewController : UITableViewController
 
 @property (strong, nonatomic) NSData *deviceToken;
 
