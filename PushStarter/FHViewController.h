@@ -16,9 +16,9 @@
  */
 
 #import <UIKit/UIKit.h>
-#import <FH/FH.h>
-@interface AGAppDelegate : UIResponder <UIApplicationDelegate>
 
-@property (strong, nonatomic) UIWindow *window;
+@interface FHViewController : UITableViewController
+
+@property (strong, nonatomic) NSData *deviceToken;
 
 @end

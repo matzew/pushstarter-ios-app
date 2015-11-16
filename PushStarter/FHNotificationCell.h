@@ -17,7 +17,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AGNotificationCell : UITableViewCell
+@interface FHNotificationCell : UITableViewCell
 
 @property (weak, nonatomic) IBOutlet UILabel *message;
 

@@ -15,10 +15,8 @@
  * limitations under the License.
  */
 
-#import <UIKit/UIKit.h>
+#import "FHNotificationCell.h"
 
-@interface AGViewController : UITableViewController
-
-@property (strong, nonatomic) NSData *deviceToken;
+@implementation FHNotificationCell
 
 @end
