@@ -15,10 +15,10 @@
  * limitations under the License.
  */
 
-#import "FHAppDelegate.h"
+#import "AppDelegate.h"
 #import <FH/FH.h>
 
-@implementation FHAppDelegate
+@implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Enable push remote notification

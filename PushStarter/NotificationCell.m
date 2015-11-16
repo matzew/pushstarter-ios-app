@@ -15,10 +15,8 @@
  * limitations under the License.
  */
 
-#import <UIKit/UIKit.h>
+#import "NotificationCell.h"
 
-@interface FHNotificationCell : UITableViewCell
-
-@property (weak, nonatomic) IBOutlet UILabel *message;
+@implementation NotificationCell
 
 @end

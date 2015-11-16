@@ -17,7 +17,7 @@
 
 #import <UIKit/UIKit.h>
 #import <FH/FH.h>
-@interface FHAppDelegate : UIResponder <UIApplicationDelegate>
+@interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 
