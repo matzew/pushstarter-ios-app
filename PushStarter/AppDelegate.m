@@ -83,7 +83,7 @@
 }
 
 - (void)application:(UIApplication *)application didReceiveRemoteNotification:(NSDictionary *)userInfo {
-    // When a message is received, send NSNotification, will be handle by registered FHViewController
+    // When a message is received, send NSNotification, will be handle by registered ViewController
     NSNotification *notification = [NSNotification notificationWithName:@"message_received" object:[self pushMessageContent:userInfo]];
     [[NSNotificationCenter defaultCenter] postNotification:notification];
     NSLog(@"UPS message received: %@", userInfo);
