@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		48628AA41B31BC0800C80AB1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48628AA21B31BC0800C80AB1 /* Main.storyboard */; };
 		48628AA61B31BC0800C80AB1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48628AA51B31BC0800C80AB1 /* Images.xcassets */; };
-		48628AB51B31BC0800C80AB1 /* PushStarterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 48628AB41B31BC0800C80AB1 /* PushStarterTests.m */; };
 		48628ACA1B31C44400C80AB1 /* fhconfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = 48628AC91B31C44400C80AB1 /* fhconfig.plist */; };
 		4873F0D01B99B64E00FCEFCC /* FH.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4873F0CF1B99B64E00FCEFCC /* FH.framework */; };
 		4873F0D21B99B66700FCEFCC /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4873F0D11B99B66700FCEFCC /* libz.dylib */; };
@@ -24,24 +23,11 @@
 		D906DC511C11EDC1009142EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D906DC501C11EDC1009142EE /* AppDelegate.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		48628AAF1B31BC0800C80AB1 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 48628A8D1B31BC0700C80AB1 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 48628A941B31BC0700C80AB1;
-			remoteInfo = PushStarter;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
 		48628A951B31BC0700C80AB1 /* PushStarter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PushStarter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		48628A991B31BC0800C80AB1 /* PushStarter-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PushStarter-Info.plist"; sourceTree = "<group>"; };
 		48628AA31B31BC0800C80AB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		48628AA51B31BC0800C80AB1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		48628AAE1B31BC0800C80AB1 /* PushStarterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PushStarterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		48628AB31B31BC0800C80AB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		48628AB41B31BC0800C80AB1 /* PushStarterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PushStarterTests.m; sourceTree = "<group>"; };
 		48628AC91B31C44400C80AB1 /* fhconfig.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = fhconfig.plist; sourceTree = "<group>"; };
 		4873F0CF1B99B64E00FCEFCC /* FH.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FH.framework; sourceTree = "<group>"; };
 		4873F0D11B99B66700FCEFCC /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
@@ -73,13 +59,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		48628AAB1B31BC0800C80AB1 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -87,7 +66,6 @@
 			isa = PBXGroup;
 			children = (
 				48628A971B31BC0700C80AB1 /* PushStarter */,
-				48628AB11B31BC0800C80AB1 /* PushStarterTests */,
 				48628A961B31BC0700C80AB1 /* Products */,
 				95CA287D06FD724317C4082B /* Frameworks */,
 			);
@@ -97,7 +75,6 @@
 			isa = PBXGroup;
 			children = (
 				48628A951B31BC0700C80AB1 /* PushStarter.app */,
-				48628AAE1B31BC0800C80AB1 /* PushStarterTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -119,23 +96,6 @@
 			isa = PBXGroup;
 			children = (
 				48628A991B31BC0800C80AB1 /* PushStarter-Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		48628AB11B31BC0800C80AB1 /* PushStarterTests */ = {
-			isa = PBXGroup;
-			children = (
-				48628AB41B31BC0800C80AB1 /* PushStarterTests.m */,
-				48628AB21B31BC0800C80AB1 /* Supporting Files */,
-			);
-			path = PushStarterTests;
-			sourceTree = "<group>";
-		};
-		48628AB21B31BC0800C80AB1 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				48628AB31B31BC0800C80AB1 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -176,24 +136,6 @@
 			productReference = 48628A951B31BC0700C80AB1 /* PushStarter.app */;
 			productType = "com.apple.product-type.application";
 		};
-		48628AAD1B31BC0800C80AB1 /* PushStarterTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 48628ABB1B31BC0800C80AB1 /* Build configuration list for PBXNativeTarget "PushStarterTests" */;
-			buildPhases = (
-				48628AAA1B31BC0800C80AB1 /* Sources */,
-				48628AAB1B31BC0800C80AB1 /* Frameworks */,
-				48628AAC1B31BC0800C80AB1 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				48628AB01B31BC0800C80AB1 /* PBXTargetDependency */,
-			);
-			name = PushStarterTests;
-			productName = PushStarterTests;
-			productReference = 48628AAE1B31BC0800C80AB1 /* PushStarterTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -201,15 +143,11 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0710;
-				LastUpgradeCheck = 0630;
+				LastUpgradeCheck = 0710;
 				ORGANIZATIONNAME = FeedHenry;
 				TargetAttributes = {
 					48628A941B31BC0700C80AB1 = {
 						CreatedOnToolsVersion = 6.3.2;
-					};
-					48628AAD1B31BC0800C80AB1 = {
-						CreatedOnToolsVersion = 6.3.2;
-						TestTargetID = 48628A941B31BC0700C80AB1;
 					};
 				};
 			};
@@ -227,7 +165,6 @@
 			projectRoot = "";
 			targets = (
 				48628A941B31BC0700C80AB1 /* PushStarter */,
-				48628AAD1B31BC0800C80AB1 /* PushStarterTests */,
 			);
 		};
 /* End PBXProject section */
@@ -243,13 +180,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		48628AAC1B31BC0800C80AB1 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -262,23 +192,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		48628AAA1B31BC0800C80AB1 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				48628AB51B31BC0800C80AB1 /* PushStarterTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		48628AB01B31BC0800C80AB1 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 48628A941B31BC0700C80AB1 /* PushStarter */;
-			targetProxy = 48628AAF1B31BC0800C80AB1 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		48628AA21B31BC0800C80AB1 /* Main.storyboard */ = {
@@ -313,6 +227,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -379,11 +294,8 @@
 		48628AB91B31BC0800C80AB1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = (
-					"$(ARCHS_STANDARD)",
-					armv7s,
-				);
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -394,6 +306,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = org.aerogear.helloworldpush;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -402,11 +315,8 @@
 		48628ABA1B31BC0800C80AB1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = (
-					"$(ARCHS_STANDARD)",
-					armv7s,
-				);
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -417,41 +327,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = org.aerogear.helloworldpush;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		48628ABC1B31BC0800C80AB1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = PushStarterTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PushStarter.app/PushStarter";
-			};
-			name = Debug;
-		};
-		48628ABD1B31BC0800C80AB1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = PushStarterTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PushStarter.app/PushStarter";
 			};
 			name = Release;
 		};
@@ -472,15 +349,6 @@
 			buildConfigurations = (
 				48628AB91B31BC0800C80AB1 /* Debug */,
 				48628ABA1B31BC0800C80AB1 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		48628ABB1B31BC0800C80AB1 /* Build configuration list for PBXNativeTarget "PushStarterTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				48628ABC1B31BC0800C80AB1 /* Debug */,
-				48628ABD1B31BC0800C80AB1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
