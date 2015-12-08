@@ -1,5 +1,4 @@
 /*
- * JBoss, Home of Professional Open Source.
  * Copyright Red Hat, Inc., and individual contributors
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -87,7 +86,7 @@
     NSNotification *notification = [NSNotification notificationWithName:@"message_received" object:[self pushMessageContent:userInfo]];
     [[NSNotificationCenter defaultCenter] postNotification:notification];
     NSLog(@"UPS message received: %@", userInfo);
-    // |send metrics when the app is awaken from background due to push notification
+    // Send metrics when the app is awaken from background due to push notification
     [FH sendMetricsWhenAppAwoken:application.applicationState userInfo: userInfo];
 }
 
