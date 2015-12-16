@@ -46,3 +46,14 @@ To receive notification, in ```PushStarter/AppDelegate.m```:
     NSLog(@"UPS message received: %@", userInfo);
 }
 ```
+### iOS9 and non TLS1.2 backend
+
+If your RHMAP is depoyed without TLS1.2 support, open as source  ```PushStarter/PushStarter-Info.plist``` add the exception lines:
+
+```
+  <key>NSAppTransportSecurity</key>
+  <dict>
+    <key>NSAllowsArbitraryLoads</key>
+    <true/>
+  </dict>
+  ```
