@@ -19,3 +19,4 @@ docset-installed.txt
 
 # Exclude cocoapods folder
 Pods/
+*.xcworkspace

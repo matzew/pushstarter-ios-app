@@ -1,0 +1,34 @@
+PODS:
+  - AeroGear-Push (1.1.1)
+  - FH (3.0.0):
+    - AeroGear-Push
+    - Reachability (= 3.2)
+  - Reachability (3.2)
+
+DEPENDENCIES:
+  - AeroGear-Push (from `https://github.com/corinnekrych/aerogear-ios-push.git`, branch
+    `AGIOS-485.ObjC.push.url.properties`)
+  - FH (from `https://github.com/corinnekrych/fh-ios-sdk.git`, branch `RHMAP-3267.push.url`)
+
+EXTERNAL SOURCES:
+  AeroGear-Push:
+    :branch: AGIOS-485.ObjC.push.url.properties
+    :git: https://github.com/corinnekrych/aerogear-ios-push.git
+  FH:
+    :branch: RHMAP-3267.push.url
+    :git: https://github.com/corinnekrych/fh-ios-sdk.git
+
+CHECKOUT OPTIONS:
+  AeroGear-Push:
+    :commit: 81702e9d5c79a0c99906fa64617a3eadade8bdd6
+    :git: https://github.com/corinnekrych/aerogear-ios-push.git
+  FH:
+    :commit: de82b6b59fdb52b223dc3b64c6ec03d449ee4cd9
+    :git: https://github.com/corinnekrych/fh-ios-sdk.git
+
+SPEC CHECKSUMS:
+  AeroGear-Push: 0d4dd12e6311f1231e2517a8597ca199bd1b8683
+  FH: 2342cd56823f66952ff28a404222b070ce262098
+  Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
+
+COCOAPODS: 0.39.0
