@@ -1,5 +1,9 @@
 # pushstarter-ios-app 
 
+> Swift version of PushStarter iOS app is available [here](https://github.com/feedhenry-templates/pushstarter-ios-app/tree/swift).
+
+> ObjC/Cocoapods of PushStarter iOS app is available [here](https://github.com/feedhenry-templates/pushstarter-ios-app/tree/cocoapods).
+
 The ```PushStarter``` project demonstrates how to include basic push functionality using [fh-ios-sdk](https://github.com/feedhenry/fh-ios-sdk) and Red Hat Mobile Application Platform.
 
 |                 | Project Info  |
