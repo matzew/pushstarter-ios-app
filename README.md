@@ -50,7 +50,7 @@ If you wish to contribute to this template, the following information may be hel
 
 In ```PushStarter/AppDelegate.m``` you register for notification as below:
 
-```
+```objective-c
 - (void)application:(UIApplication *)application didRegisterForRemoteNotificationsWithDeviceToken:(NSData *)deviceToken {
   [FH pushRegister:deviceToken andSuccess:^(FHResponse *success) {
     NSNotification *notification = [NSNotification notificationWithName:@"success_registered" object:nil];
