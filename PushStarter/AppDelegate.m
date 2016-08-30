@@ -21,7 +21,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Enable push remote notification
-    [FH pushEnabledForRemoteNotification:application];
+    [FH pushEnabledForRemoteNotification:application]
     // Send metrics to count when the app is opened due to a push notification
     [FH sendMetricsWhenAppLaunched:launchOptions];
     
